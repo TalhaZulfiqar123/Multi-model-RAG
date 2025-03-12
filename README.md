@@ -1,4 +1,4 @@
-**Multi-Model RAG Chatbot**
+# Multi-Model RAG Chatbot
 
 ### **Overview:**
 This project is a **Retrieval-Augmented Generation (RAG) chatbot** built using **Streamlit** and **LangChain**. It allows users to interact with multiple AI models and retrieve information from uploaded PDF documents.
@@ -15,13 +15,13 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** built using *
 ### **Usage:**
 1. **Run the Streamlit app:**
    ```
-   streamlit run app.py
+   streamlit run phase1.py
    ```
 2. **Upload PDF documents** for retrieval-augmented responses.
 3. **Enter a prompt** in the chat input field and compare responses from different models.
 
 ### **File Structure:**
-- **`app.py`**: Main Streamlit application
+- **`phase1.py`**: Main Streamlit application
 - **`requirements.txt`**: Required dependencies
 - **`README.md`**: Project documentation
 - **`.env`**: Environment variables (optional)
@@ -38,5 +38,4 @@ This project is a **Retrieval-Augmented Generation (RAG) chatbot** built using *
 - **Add support for more LLM providers** (OpenAI, Anthropic, etc.).
 - **Improve document retrieval efficiency.**
 - **Implement a database for storing chat history.**
-
 
